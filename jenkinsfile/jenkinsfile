@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage ('checkout') {
             steps{
-                git changelog: false, poll: false, url: 'https://github.com/Gowtham1437/for-practice.git'
+                git changelog: false, poll: false, url: 'https://github.com/Gowtham1437/forproof.git'
             }
         }    
         stage ('maven build') {
