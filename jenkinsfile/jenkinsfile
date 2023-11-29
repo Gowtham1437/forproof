@@ -1,11 +1,7 @@
 pipeline{
     agent{
         node{
-<<<<<<< HEAD
             label 'practice'
-=======
-            label 'forproof'
->>>>>>> f6326e9a58614702504247a856d3c7d3e5ab43c9
         }
     }
 
