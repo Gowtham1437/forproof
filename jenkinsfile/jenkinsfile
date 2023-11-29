@@ -1,7 +1,11 @@
 pipeline{
     agent{
         node{
+<<<<<<< HEAD
             label 'practice'
+=======
+            label 'forproof'
+>>>>>>> f6326e9a58614702504247a856d3c7d3e5ab43c9
         }
     }
 
@@ -20,8 +24,8 @@ pipeline{
         stage ('docker build'){
             steps{
                 sh 'docker login -u bobby4me -p dckr_pat_k7bMm6utohbyx2UjjIHojjfqtl8'
-                sh 'docker build . -t bobby4me/mynginx:v1'
-                sh 'docker push bobby4me/mynginx:v1'
+                sh 'docker build . -t bobby4me/mynginx:v2'
+                sh 'docker push bobby4me/mynginx:v2'
             }
        
         }
